@@ -11,6 +11,6 @@ print("Last digit of {0} is {1} and is".format(number, last_d), end=" ")
 if last_d > 5:
     print("greater than 5")
 elif last_d == 0:
-    print ("0")
-else:
+    print("0")
+elif last_d < 6 and not 0:
     print("less than 6 and not 0")
