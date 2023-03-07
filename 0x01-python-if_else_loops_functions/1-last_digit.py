@@ -1,11 +1,9 @@
 #!/usr/bin/python3
 import random
 number = random.randint(-10000, 10000)
-n_str = repr(number)
-last_d = n_str[-1]
-# convert the last digit into an integer
-last_d = int(last_d)
-# print the last digit
+last_d = abs(number) % 10
+if number < 0:
+    last_d = last_d
 print("Last digit of {0} is {1} and is".format(number, last_d), end=" ")
 
 if last_d > 5:
