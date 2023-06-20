@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 
 if __name__ == "__main__":
+    """This function handles basic operations"""
     import sys
     from calculator_1 import add, sub, mul, div
 
