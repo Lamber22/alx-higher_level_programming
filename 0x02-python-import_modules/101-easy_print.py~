@@ -1,4 +1,0 @@
-#!/usr/bin/python3
-"""prints to standard output"""
-import sys
-sys.write(1, "#pythoniscool\n".encode("UTF-8"))
