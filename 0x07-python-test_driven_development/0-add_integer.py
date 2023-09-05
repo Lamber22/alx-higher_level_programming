@@ -7,8 +7,7 @@ def add_integer(a, b=98):
     """Return the integer addition of a and b.
 
     Float arguments are typecasted to ints before addition of a and b.
-
-    Raises: 
+    Raises:
         TypeError: if either of a and b is a non integer and non float.
     """
     if ((not isinstance(a, int) and not isinstance(a, float))):
