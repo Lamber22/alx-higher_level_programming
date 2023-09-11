@@ -4,7 +4,7 @@
 """Defines a class that will be inherited"""
 
 
-class Mylist(list):
+class MyList(list):
     """Implements sorted printing for the built - in liat class"""
 
     def print_sorted(self):
