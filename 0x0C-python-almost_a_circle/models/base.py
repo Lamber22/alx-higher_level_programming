@@ -3,6 +3,7 @@
 
 """Defines a Base class"""
 
+
 class Base:
     """Represents a base model
 
