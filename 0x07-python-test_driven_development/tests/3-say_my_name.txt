@@ -1,0 +1,36 @@
+#Lamber22
+
+===========================
+How to use 3-say_my_name.py
+===========================
+
+usage:
+======
+
+>>> say_my_name = __import__('3-say_my_name').say_my_name
+>>> say_my_name("Lamber", "Kpukuyou")
+My name is Lamber Kpukuyou
+>>> say_my_name("Joe", "Lamber")
+My name is Joe Lamber
+>>> say_my_name("ALX", "School")
+My name is ALX School
+>>> say_my_name("Holborton", "University")
+My name is Holborton University
+>>> say_my_name("Julien", "Bibier")
+My name is Julien Bibier
+>>> say_my_name(John, "Kollie")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'John' is not defined
+>>> say_my_name(4, "Kollie")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/alx-higher_level_programming/0x07-python-test_driven_development/3-say_my_name.py", line 18, in say_my_name
+    raise TypeError("first_name must be a string")
+TypeError: first_name must be a string
+>>> say_my_name("Paul", 54)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+  File "/alx-higher_level_programming/0x07-python-test_driven_development/3-say_my_name.py", line 20, in say_my_name
+    raise TypeError("last_name must be a string")
+TypeError: last_name must be a string
