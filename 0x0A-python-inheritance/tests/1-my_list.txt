@@ -9,7 +9,6 @@ How to use 1-mylist.py
 Usage:
 =====
 
->>> MyList = __import__('1-my_list').MyList
 >>> print(MyList)
 <class '1-my_list.MyList'>
 >>> MyList.append(9)
