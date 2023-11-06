@@ -1,0 +1,29 @@
+========
+Lamber22
+========
+
+======================
+How to use 1-mylist.py
+======================
+
+Usage:
+=====
+
+>>> MyList = __import__('1-my_list').MyList
+>>> print(MyList)
+<class '1-my_list.MyList'>
+>>> MyList.append(9)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: descriptor 'append' for 'list' objects doesn't apply to a 'int' object
+>>> list_n = MyList()
+>>> list_n.append(8)
+>>> list_n.append(10)
+>>> list_n.append(20)
+>>> list_n.append(77)
+>>> list_n.append(100)
+>>> list_n.append(50)
+>>> print(list_n)
+[8, 10, 20, 77, 100, 50]
+>>> list_n.print_sorted()
+[8, 10, 20, 50, 77, 100]
