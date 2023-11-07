@@ -27,3 +27,11 @@ TypeError: descriptor 'append' for 'list' objects doesn't apply to a 'int' objec
 [8, 10, 20, 77, 100, 50]
 >>> list_n.print_sorted()
 [8, 10, 20, 50, 77, 100]
+
+If ``print_sorted(...)`` is called on a list of different types, a TypeError
+will be raised.
+
+>>> list_n = MyList([1, "pycodestyle", "ALX", 5])
+>>> my_list.print_sorted()
+Traceback (most recent call last):
+TypeError: unorderable types: str() < int()
