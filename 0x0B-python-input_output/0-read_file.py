@@ -1,7 +1,6 @@
 #!/usr/bin/python3
 
 
-
 """Defines a function that reads from a text file"""
 
 
