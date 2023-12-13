@@ -1,9 +1,9 @@
 -- Lists all the cities of California that can be found in the database
--- 	 hbtn_0d_usa in ascending order.
-SELECT 'id', 'name'
-FROM 'cities'
-WHERE 'state_id' IN
-      (SELECT 'id'
-      	      FROM 'states'
-	      WHERE 'name' = 'california')
-ORDER BY 'id' ASC;
+-- hbtn_0d_usa in ascending order.
+SELECT id, name
+FROM cities
+WHERE state_id IN
+      (SELECT id
+       FROM states
+       WHERE name = 'California')
+ORDER BY id ASC;
